@@ -1,0 +1,48 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap') ;
+
+@mixin flex($ai, $jc)
+    display: flex
+    align-items: $ai
+    justify-content: $jc
+@mixin text-settings($fsize, $color)
+    font-size: $fsize
+    color: $color
+    font-family: 'Heebo', sans-serif
+@mixin bg
+    background-position: center
+    background-repeat: no-repeat
+    display: inline-block
+@mixin link($color)
+    text-decoration: none
+    text-transform: none
+    outline: none
+    color: $color
+html
+    box-sizing: border-box 
+*, *:before, *:after
+    box-sizing: inherit
+body 
+    overflow-x: hidden
+    font-style: normal
+.wrapper 
+    margin: 0
+    width: 100%
+    min-height: 500px
+    @include flex(center, initial)
+    flex-direction: column
+    background:#51575a
+.inline-wrapper
+    width: 1400px
+header, main, footer, section
+    width: 100%
+header
+    min-height: 80px
+    background: #373A3C
+main, section, footer
+    min-height: 400px
+    background: blue
+section
+    border: 1px solid black
+footer
+    background:#373A3C
