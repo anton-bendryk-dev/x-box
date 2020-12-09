@@ -1,12 +1,9 @@
 import React from 'react'
-
+import DefaultPage from './defaultPage/defaultPage'
 const Main = () => {
     return (
         <main>
-            <section>main</section>
-            <section>main</section>
-            <section>main</section>
-            <section>main</section>
+            <DefaultPage/>
         </main>
     )
 }
