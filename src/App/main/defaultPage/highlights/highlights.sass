@@ -1,0 +1,24 @@
+.highlights-container
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%)
+    min-height: 865px
+.highlights-description, .highlights-cards
+    width: 100%
+.highlights-description
+    @include flex(center, center)
+    flex-direction: column
+.highlights-icon
+    width: 63px
+    height: 64px
+    @include bg 
+    background-image: url(./images/highlights-icon.png)
+    margin-top: 64px
+    margin-bottom: 16px
+.highlights-description h2 
+    text-align: center
+    @include text-settings(48px, white)
+.highlights-description span
+    text-align: center
+    @include text-settings(36px, white)
+.highlights-cards
+    @include flex(center, space-around)
+    margin-top: 43px

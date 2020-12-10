@@ -1,10 +1,11 @@
 import React from 'react'
-import SlideTop from './sliderTop/sliderTop'
+import SlideTop from './sliderTop/sliderTop';
+import Highlights from './highlights/highlights';
 const DefaultPage = () => {
     return (
         <div>
             <SlideTop/>
-            <section>main</section>
+            <Highlights/>
             <section>main</section>
             <section>main</section>
         </div>
