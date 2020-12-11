@@ -1,0 +1,40 @@
+footer
+    background: $grey
+    padding: 58px 100px 0px 100px
+.inline-footer
+    min-height: 259px
+    @include flex(center, space-between)
+.inline-footer-bottom
+    mix-blend-mode: normal
+    opacity: 0.35
+    border-bottom: 1px solid #FFFFFF
+.col-w30
+    width: 30%
+    min-height: 200px
+    padding-left: 50px
+.col-w30 h3
+    @include text-settings(18px, $green)
+.col-w30 p
+    @include text-settings(14px, white)
+    margin-top: 34px
+.links
+    margin-top: 25px
+    @include flex(center, left)
+.links a 
+    width: 20px
+    height: 30px
+    @include bg
+    background-position: top
+.facebook
+    background-image: url(./images/Facebook.png)
+.twitter
+    margin-left: 15px
+    background-image: url(./images/Twitter.png)
+.instagram
+    margin-left: 15px
+    background-image: url(./images/Instagram.png)
+.footer-bottom
+    @include flex(center, space-between)
+    min-height: 76px
+.footer-bottom p 
+    @include text-settings(16px, white)
