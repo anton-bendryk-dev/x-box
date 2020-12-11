@@ -1,5 +1,7 @@
 import React from 'react'
-
+import facebook from './images/Facebook.png'
+import twitter from './images/Twitter.png'
+import instagram from './images/Instagram.png'
 const Footer = () => {
     return (
         <footer>
@@ -21,9 +23,9 @@ const Footer = () => {
                 <div className="col-w30">
                     <h3>Follow Us</h3>
                     <div className="links">
-                        <a href="/" className="facebook"></a>
-                        <a href="/" className="twitter"></a>
-                        <a href="/" className="instagram"></a>
+                        <a href="/" className="facebook"><img src={facebook} alt='facebook'/></a>
+                        <a href="/" className="twitter"><img src={twitter} alt='twitter'/></a>
+                        <a href="/" className="instagram"><img src={instagram} alt='instagram'/></a>
                     </div>
                 </div>
             </div>

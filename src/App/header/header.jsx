@@ -1,20 +1,21 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
+import logo from './images/Group.png'
 const Header = () => {
     return (
         <header>
             <div className="logo-container">
-                <a href='/' className="logo"></a>
+                <Link to='/' className="logo"><img src={logo} alt='logo'/></Link>
             </div>
             <div className="menu-container">
                 <div className="menu-button">
-                    <a href='/'>Games<span className="arrow"></span></a>
+                    <Link to='/Games'>Games<span className="arrow"></span></Link>
                 </div>
                 <div className="menu-button">
-                    <a href='/'>Consoles<span className="arrow"></span></a>
+                    <Link to='/Consoles'>Consoles<span className="arrow"></span></Link>
                 </div>
                 <div className="menu-button">
-                    <a href='/'>Community</a>
+                    <Link to='/'>Community</Link>
                 </div>
             </div>
             <div className="search-container">
@@ -24,7 +25,7 @@ const Header = () => {
             </div>
             <div className="user-container">
                 <span className="user-icon"></span>
-                <a href="/">My XBOX<span className="arrow"></span></a>
+                <Link to="/">My XBOX<span className="arrow"></span></Link>
             </div>
         </header>
     )

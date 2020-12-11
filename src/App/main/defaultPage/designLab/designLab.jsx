@@ -2,7 +2,7 @@ import React from 'react';
 
 const DesignLab = () => {
     return (
-        <section className="designLab-container">
+        <section className="designLab-container" id="Consoles">
             <div className="inline-dl-container">
                 <div className="col-w50">
                     <h2>Xbox Design Lab</h2>

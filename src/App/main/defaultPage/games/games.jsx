@@ -41,7 +41,7 @@ const cardDate = [
 ]
 const Games = () => {
     return (
-        <section className='games-container'>
+        <section className='games-container' id='Games'>
             <div className='inline-games-container'>
                 <h2>Exclusive games on XBOX</h2>
                 <div className="games-cards">

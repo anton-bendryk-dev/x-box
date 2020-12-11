@@ -16,17 +16,15 @@ header
     @include flex(center, around)
 .logo
     @include link(white)
-    @include bg 
     width: 96px
     height: 29px
-    background-image: url(./images/Group.png)
 .menu-button
     width: 33%
 header a 
     @include link($light-grey)
     @include text-settings(16px, $light-grey)
 header a:hover
-    color: white
+    @include link(white)
 .arrow
     @include bg 
     width: 12px
