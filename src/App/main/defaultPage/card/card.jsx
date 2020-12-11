@@ -10,7 +10,7 @@ const Card = ({
     return (
     <div className="card-container">
         <div className="card">
-            <div className="card-img">{img}</div>
+            <div className="card-img"><img src={img} alt={title}/></div>
             <div className="card-description">
             <p className="card-title">{title}</p>
             <p className="card-text">{text1}</p>
