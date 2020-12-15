@@ -1,8 +1,5 @@
 @import 'react-slideshow-image/dist/styles.css'
 .each-slide > div 
-    display: flex
-    align-items: center
-    justify-content: center
     background-size: cover
     min-height: 644px
 .each-slide span 
@@ -10,30 +7,18 @@
     font-size: 20px
     background: #efefef
     text-align: center
-.slide-image 
-    @include bg 
-    width: 100%
-    height: 100%
-    flex-direction: column
 .slide-image1
     background-image: url(./images/Star-Wars-Battlefront-II-combat.png)
 .slide-image2
     background-image: url(./images/CoD.png)
 .slide-image3
     background-image: url(./images/Forza7.jpg)
-.slide-image h2 
-    @include text-settings(36px, white)
-    position: relative
-    top: -62px 
-    left: 287px
 .slide-image p
     @include text-settings(24px, white)
-.slide-buttons
-    @include flex(center, space-around)
-    width: 350px
-.btn
-    height: 38px
-    width: 136px
+.green-btn
+    @include btn($green)
+.explore-games
+    @include btn(linear-gradient(180deg, #686C6F 0%, #373A3C 100%))
 .btn a 
     height: 100%
     width: 100%
@@ -41,7 +26,4 @@
     @include text-settings(16px, white)
     border-radius: 4px
     @include flex(center, center)
-.watch-trailer-btn
-    background-color: $green
-.explore-games
-    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%)
+

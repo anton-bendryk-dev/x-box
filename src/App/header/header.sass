@@ -7,6 +7,7 @@ header
     @include flex(center, center)
 .menu-container
     width: 30%
+    
     @include flex(center, around)
 .search-container
     width: 15%
@@ -20,9 +21,12 @@ header
     height: 29px
 .menu-button
     width: 33%
+    height: 100%
+    @include flex(center, flex-start)
 header a 
     @include link($light-grey)
     @include text-settings(16px, $light-grey)
+    padding-left: 10px
 header a:hover
     @include link(white)
 .arrow
@@ -51,5 +55,26 @@ header a:hover
     margin-left: 29px
     margin-right: 5px
     background-image: url(./images/user-icon.png)
-
-
+.drop-menu 
+    visibility: hidden
+    position: absolute
+    top: 60px 
+    width: 235px
+    z-index: 1
+    background: $grey
+    display: flex
+    flex-direction: column
+.menu-button:hover .drop-menu 
+    visibility: visible
+    -webkit-transition: all 1000ms
+    -moz-transition: all 1000ms
+    -o-transition: all 1000ms
+    transition: all 1000ms
+.drop-menu a 
+    padding: 10px
+.drop-menu a:hover
+    padding-left: 20px
+    -webkit-transition: all 500ms
+    -moz-transition: all 500ms
+    -o-transition: all 500ms
+    transition: all 500ms

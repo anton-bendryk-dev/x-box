@@ -3,3 +3,19 @@
 @import "./defaultPage/card/card.sass";
 @import "./defaultPage/games/games.sass";
 @import "./defaultPage/designLab/designLab.sass";
+@import "./gamesPages/gamePageTemplate.sass";
+.banner
+    @include bg 
+    width: 100%
+    height: 100%
+    @include flex(flex-end, center)
+    flex-direction: column
+.btn-container
+    @include flex(center, flex-start)
+    width: 40%
+    margin-top: 134px
+.btn 
+    margin-right: 10px
+h2 
+    @include text-settings(36px, white)
+    width: 40%

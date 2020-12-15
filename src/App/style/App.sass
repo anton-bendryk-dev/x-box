@@ -15,6 +15,11 @@ $light-grey: rgba(255, 255, 255, 0.5)
     background-position: center
     background-repeat: no-repeat
     display: inline-block
+@mixin btn($color)
+    height: 38px
+    width: 136px
+    background: $color
+    border-radius: 5px
 @mixin link($color)
     text-decoration: none
     text-transform: none
@@ -42,6 +47,8 @@ body
     outline: none
 .inline-wrapper
     width: 1400px
+    @media screen and (max-width: 1399px)
+        width: 100%
 header, main, footer, section
     width: 100%
 main, section, footer

@@ -10,9 +10,19 @@ const Header = () => {
             <div className="menu-container">
                 <div className="menu-button">
                     <Link to='/Games'>Games<span className="arrow"></span></Link>
+                    <div className="drop-menu">
+                        <Link to='/CoDpage'>Call of Duty: WWII</Link>
+                        <Link to='/Games'>Destiny 2</Link>
+                        <Link to='/Games'>STEEP</Link>
+                        <Link to='/Games'>Forza Motorsport 7</Link>
+                    </div>
                 </div>
                 <div className="menu-button">
                     <Link to='/Consoles'>Consoles<span className="arrow"></span></Link>
+                    <div className="drop-menu">
+                        <Link to='/Games'>Design Yours</Link>
+                        <Link to='/Games'>Explore Consoles & Accessories</Link>
+                    </div>
                 </div>
                 <div className="menu-button">
                     <Link to='/'>Community</Link>

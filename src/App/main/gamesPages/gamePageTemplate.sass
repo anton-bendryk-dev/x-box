@@ -1,0 +1,66 @@
+.game-banner-container 
+    min-height: 550px
+.game-trailer-container
+    min-height: 400px
+    padding: 40px
+.on-btn, .ts-btn, .btn-ssom
+    height: 52px
+    border-radius: 4px
+.ts-btn
+    width: 235px
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%)
+.on-btn 
+    width: 170px
+    background: #8DD83D
+.video-container
+    margin-top: 150px
+    min-height: 400px
+    width: 60%
+    @include bg 
+    background-image: url(./images/video.png)
+.game-description
+    background: white
+    min-height: 400px
+    display: flex
+    flex-wrap: wrap
+    padding: 40px
+.game-description-text, .game-description-img
+    width: 50%
+    @include flex(center, center)
+.game-description-text
+    @include text-settings(36px, #435766)
+.technical-specifications
+    padding: 40px
+    background: white
+.technical-specifications h4
+    @include text-settings(36px, #435766)
+    text-align: center
+    margin-bottom: 20px
+.technical-specifications-text
+    display: grid 
+    grid-template-columns: 30% 30% 30% 
+    grid-template-rows: repeat(2, 1fr)
+    justify-content: space-around
+.technical-specifications-text p 
+    @include text-settings(21px, #435766)
+    margin-top: 20px
+.ts-btn-container
+    margin-top: 40px
+    width: 100%
+    @include flex(center, center)
+.ts-btn-container a
+    height: 100%
+    @include link(white)
+    @include text-settings(16px, white)
+    border-radius: 4px
+    @include flex(center, center)
+.btn-ssom
+    width: 235px
+    background: #8DD83D
+    margin-left: 20px
+.cod-page .game-banner-container
+    @include bg
+    background-image: url(./images/cod-banner.png)
+    display: flex
+.cod-page 
+    background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%)
