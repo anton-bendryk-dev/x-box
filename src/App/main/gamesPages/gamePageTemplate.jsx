@@ -1,10 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import { Player } from 'video-react';
 
 const GamePageTemplate = (
     {title,
     gameDescriptionImg1,
-    gameDescriptionImg2}
+    gameDescriptionImg2,
+    video,
+}
 ) => {
     return(
         <section className="gamePageTemplate-container">
@@ -17,7 +20,11 @@ const GamePageTemplate = (
             </div>
             <div className="game-trailer-container">
                 <h2>{title}</h2>
-                <div className="video-container"></div>
+                <div className="video-container">
+                <Player>
+                    <source src={video}/>
+                </Player>
+                </div>
                 <div className="btn-container">
                     <div className="btn on-btn"><a href="/">Order Now</a></div>
                     <div className="btn ts-btn"><Link to='/Consoles'>Technical Specifications</Link></div>
