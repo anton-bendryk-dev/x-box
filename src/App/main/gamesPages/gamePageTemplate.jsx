@@ -32,8 +32,8 @@ const GamePageTemplate = (
             </div>
             <div className="game-description">
                 <div className="game-description-text">Life Advice Looking Through A Window</div>
-                <div className="game-description-img">{gameDescriptionImg1}</div>
-                <div className="game-description-img">{gameDescriptionImg2}</div>
+                <div className="game-description-img"><img src={gameDescriptionImg1}/></div>
+                <div className="game-description-img"><img src={gameDescriptionImg2}/></div>
                 <div className="game-description-text">The Best Answers</div>
             </div>
             <div className="technical-specifications">
