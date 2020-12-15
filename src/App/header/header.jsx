@@ -15,6 +15,7 @@ const Header = () => {
                         <Link to='/DestinyPage'>Destiny 2</Link>
                         <Link to='/SteepPage'>STEEP</Link>
                         <Link to='/ForzaPage'>Forza Motorsport 7</Link>
+                        <Link to='/StarWarsPage'>Star Wars Battlefront II</Link>
                     </div>
                 </div>
                 <div className="menu-button">

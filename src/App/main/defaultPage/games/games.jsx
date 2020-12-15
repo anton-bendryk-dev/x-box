@@ -8,6 +8,7 @@ const cardDate = [
         title:'Call of Duty: WWII',
         text1:'The C.O.D.E. Bravery Pack',
         text2:' is now available in WWII',
+        link: '/CoDpage',
         btnText: 'See Details'
     },
     {
@@ -15,6 +16,7 @@ const cardDate = [
         title:'Destiny 2',
         text1:'The Next Generation',
         text2:'Of Life Game Streaming',
+        link: '/DestinyPage',
         btnText: 'See Details'
     },
     {
@@ -22,6 +24,7 @@ const cardDate = [
         title:'Forza Motorsport 7',
         text1:'Faster Processing',
         text2:'Smoother Gameplay',
+        link: '/ForzaPage',
         btnText: 'See Details'
     },
     {
@@ -29,6 +32,7 @@ const cardDate = [
         title:'STEEP',
         text1:'The Next Generation',
         text2:'Of Life Game Streaming',
+        link: '/SteepPage',
         btnText: 'See Details'
     },
     {
@@ -36,13 +40,15 @@ const cardDate = [
         title:'Call of Duty: WWII',
         text1:'Get up to $700 in',
         text2:'free games',
+        link: '/CoDpage',
         btnText: 'See Details'
     },
     {
-        img: './images/img1.png',
-        title:'Destiny 2',
+        img: './images/sw1.png',
+        title:'Star Wars Battlefront II',
         text1:'The Next Generation',
         text2:'Of Life Game Streaming',
+        link: '/StarWarsPage',
         btnText: 'See Details'
     },
     {
@@ -50,6 +56,7 @@ const cardDate = [
         title:'Forza Motorsport 7',
         text1:'Faster Processing',
         text2:'Smoother Gameplay',
+        link: '/ForzaPage',
         btnText: 'See Details'
     },
 ]
@@ -90,6 +97,7 @@ const Games = () => {
                             title,
                             text1,
                             text2,
+                            link,
                             btnText
                         }) => (
                             <Card
@@ -97,6 +105,7 @@ const Games = () => {
                                 title = {title}
                                 text1 = {text1}
                                 text2 = {text2}
+                                link = {link}
                                 btnText = {btnText}
                             />
                         ))

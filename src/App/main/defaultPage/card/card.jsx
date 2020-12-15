@@ -1,10 +1,12 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 const Card = ({
     img,
     title,
     text1,
     text2,
+    link,
     btnText
 }) => {
     return (
@@ -16,7 +18,7 @@ const Card = ({
             <p className="card-text">{text1}</p>
             <p className="card-text">{text2}</p>
             <div className="card-btn">
-                <a href="/">{btnText}</a>
+            <Link to={link}>{btnText}</Link>
             </div>
             </div>
         </div>

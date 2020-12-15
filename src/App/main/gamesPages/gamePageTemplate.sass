@@ -63,8 +63,12 @@
     @include bg
     background-image: url(./images/cod-banner.png)
     display: flex
-.cod-page 
-    background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%)
+.cod-page .game-trailer-container
+    background-image: url(./images/CoD-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+.cod-page .video-container
+    margin-top: 70px
 .destiny-page .game-banner-container
     @include bg
     background-image: url(./images/destiny-2.jpg)
@@ -72,18 +76,34 @@
 .destiny-page .banner
     min-height: 787px 
 .destiny-page .game-trailer-container
-    background-color: #6e3638
+    background-image: url(./images/destiny-bg.jpeg)
+    background-repeat: no-repeat
+    background-size: cover
 .forza-page .game-banner-container
     @include bg
     background-image: url(../defaultPage/sliderTop/images/Forza7.jpg)
     display: flex
     min-height: 787px
 .forza-page  .game-trailer-container
-    background-color: darkgray
+    background-image: url(./images/forza-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
 .steep-page .game-banner-container
     @include bg
     background-image: url(./images/steep.jpg)
     display: flex
     min-height: 787px
 .steep-page  .game-trailer-container
-    background-color: #4e7286
+    background-image: url(./images/steep-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+.star-wars-page .game-banner-container
+    @include bg
+    background-image: url(./images/sw-banner.jpg)
+    display: flex
+    background-size: cover
+    min-height: 600px
+.star-wars-page  .game-trailer-container
+    background-image: url(./images/sw-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
