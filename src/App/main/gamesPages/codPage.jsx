@@ -5,8 +5,8 @@ const GameData = [
     {
         title:'Call of Duty: WWII',
         video: './videos/CoD.mp4',
-        gameDescriptionImg1: './images/img.png',
-        gameDescriptionImg2: './images/img.png'
+        gameDescriptionImg1: './images/iw-key-art.png',
+        gameDescriptionImg2: './images/maxresdefault2.png'
     }
 ]
 const CoDpage = () => {
