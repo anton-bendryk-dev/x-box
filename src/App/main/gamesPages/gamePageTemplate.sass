@@ -13,11 +13,12 @@
     width: 170px
     background: #8DD83D
 .video-container
-    margin-top: 150px
+    margin-top: 100px
     min-height: 400px
     width: 60%
-    @include bg 
-    background-image: url(./images/video.png)
+.video-react .video-react-big-play-button
+    top: 45% !important
+    left: 45% !important
 .game-description
     background: white
     min-height: 400px
@@ -64,3 +65,12 @@
     display: flex
 .cod-page 
     background: radial-gradient(100% 100% at 50% 0%, rgba(76, 80, 82, 0.1) 0%, rgba(95, 98, 101, 0.1) 100%)
+.destiny-page .game-banner-container
+    @include bg
+    background-image: url(./images/destiny-2.jpg)
+    display: flex
+.destiny-page .banner
+    min-height: 787px 
+.destiny-page h2 
+    position: relative
+    top: 50px
