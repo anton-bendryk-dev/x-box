@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/x-box/static/css/main.bcc29fba.chunk.css",
-    "main.js": "/x-box/static/js/main.8232381f.chunk.js",
-    "main.js.map": "/x-box/static/js/main.8232381f.chunk.js.map",
+    "main.css": "/x-box/static/css/main.e5eb148f.chunk.css",
+    "main.js": "/x-box/static/js/main.b198d616.chunk.js",
+    "main.js.map": "/x-box/static/js/main.b198d616.chunk.js.map",
     "runtime-main.js": "/x-box/static/js/runtime-main.4c06efa2.js",
     "runtime-main.js.map": "/x-box/static/js/runtime-main.4c06efa2.js.map",
     "static/css/2.62cc171c.chunk.css": "/x-box/static/css/2.62cc171c.chunk.css",
@@ -10,15 +10,15 @@
     "static/js/2.4fa7b9f5.chunk.js.map": "/x-box/static/js/2.4fa7b9f5.chunk.js.map",
     "index.html": "/x-box/index.html",
     "static/css/2.62cc171c.chunk.css.map": "/x-box/static/css/2.62cc171c.chunk.css.map",
-    "static/css/main.bcc29fba.chunk.css.map": "/x-box/static/css/main.bcc29fba.chunk.css.map",
+    "static/css/main.e5eb148f.chunk.css.map": "/x-box/static/css/main.e5eb148f.chunk.css.map",
     "static/js/2.4fa7b9f5.chunk.js.LICENSE.txt": "/x-box/static/js/2.4fa7b9f5.chunk.js.LICENSE.txt",
-    "static/media/App.sass": "/x-box/static/media/destiny-2.991302b9.jpg"
+    "static/media/App.sass": "/x-box/static/media/destiny-2.afcc558b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4c06efa2.js",
     "static/css/2.62cc171c.chunk.css",
     "static/js/2.4fa7b9f5.chunk.js",
-    "static/css/main.bcc29fba.chunk.css",
-    "static/js/main.8232381f.chunk.js"
+    "static/css/main.e5eb148f.chunk.css",
+    "static/js/main.b198d616.chunk.js"
   ]
 }
