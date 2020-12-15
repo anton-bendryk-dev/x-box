@@ -37,7 +37,21 @@ const cardDate = [
         text1:'Get up to $700 in',
         text2:'free games',
         btnText: 'See Details'
-    }
+    },
+    {
+        img: './images/img1.png',
+        title:'Destiny 2',
+        text1:'The Next Generation',
+        text2:'Of Life Game Streaming',
+        btnText: 'See Details'
+    },
+    {
+        img: './images/img3.png',
+        title:'Forza Motorsport 7',
+        text1:'Faster Processing',
+        text2:'Smoother Gameplay',
+        btnText: 'See Details'
+    },
 ]
 const Games = () => {
     return (

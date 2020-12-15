@@ -13,7 +13,7 @@ const Header = () => {
                     <div className="drop-menu">
                         <Link to='/CoDpage'>Call of Duty: WWII</Link>
                         <Link to='/DestinyPage'>Destiny 2</Link>
-                        <Link to='/Games'>STEEP</Link>
+                        <Link to='/SteepPage'>STEEP</Link>
                         <Link to='/ForzaPage'>Forza Motorsport 7</Link>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const Header = () => {
                     <Link to='/Consoles'>Consoles<span className="arrow"></span></Link>
                     <div className="drop-menu">
                         <Link to='/Games'>Design Yours</Link>
-                        <Link to='/Games'>Explore Consoles & Accessories</Link>
+                        <Link to='/Consoles'>Explore Consoles & Accessories</Link>
                     </div>
                 </div>
                 <div className="menu-button">
