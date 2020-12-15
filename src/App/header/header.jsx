@@ -14,7 +14,7 @@ const Header = () => {
                         <Link to='/CoDpage'>Call of Duty: WWII</Link>
                         <Link to='/DestinyPage'>Destiny 2</Link>
                         <Link to='/Games'>STEEP</Link>
-                        <Link to='/Games'>Forza Motorsport 7</Link>
+                        <Link to='/ForzaPage'>Forza Motorsport 7</Link>
                     </div>
                 </div>
                 <div className="menu-button">

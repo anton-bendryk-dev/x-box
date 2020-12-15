@@ -5,7 +5,7 @@ import Games from './defaultPage/games/games';
 import DesignLab from './defaultPage/designLab/designLab';
 import CoDpage from './gamesPages/codPage';
 import DestinyPage from './gamesPages/destinyPage';
-
+import ForzaPage from './gamesPages/forzaPage';
 const Main = () => {
     return (
         <main>
@@ -14,6 +14,7 @@ const Main = () => {
             <Route exact path="/Consoles" component={DesignLab}/>
             <Route exact path="/CoDpage" component={CoDpage}/>
             <Route exact path="/DestinyPage" component={DestinyPage}/>
+            <Route exact path="/ForzaPage" component={ForzaPage}/>
         </main>
     )
 }

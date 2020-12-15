@@ -6,7 +6,7 @@ const GameData = [
         title:'Destiny 2',
         video: './videos/Destiny2.mp4',
         gameDescriptionImg1: './images/Destiny2.jpg',
-        gameDescriptionImg2: './images/maxresdefault2.jpg'
+        gameDescriptionImg2: './images/maxresdefault.jpg'
     }
 ]
 const DestinyPage = () => {
