@@ -28,6 +28,9 @@
 .game-description-text, .game-description-img
     width: 50%
     @include flex(center, center)
+.game-description-img img 
+    width: 320px
+    height: 320px
 .game-description-text
     @include text-settings(36px, #435766)
 .technical-specifications
@@ -130,6 +133,12 @@
     .technical-specifications-text 
             grid-template-columns: 50% 50% 
             grid-template-rows: repeat(3, 1fr)
+    .game-description
+        display: grid
+        grid-template-columns: 50% 50% 
+        grid-template-rows: repeat(2, 1fr)
+    .game-description-text, .game-description-img
+        width: 100%
 @media screen and (max-width: 420px)
     .btn a, .btn-ssom a, .ts-btn a
         font-size: 14px
