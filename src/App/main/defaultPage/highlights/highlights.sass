@@ -22,3 +22,10 @@
 .highlights-cards
     @include flex(center, space-around)
     margin-top: 43px
+@media screen and (max-width: 1024px)
+    .highlights-cards
+        flex-direction: column
+@media screen and (max-width: 768px)
+    .highlights-description h2 
+        width: 100%
+        text-align: center

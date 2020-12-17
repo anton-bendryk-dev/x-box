@@ -107,3 +107,35 @@
     background-image: url(./images/sw-bg.jpg)
     background-repeat: no-repeat
     background-size: cover
+@media screen and (max-width: 1024px)
+    .video-container
+        width: 100%
+        min-height: 100px
+    .cod-page .game-banner-container
+        background-position: 0px !important
+    .cod-page .game-trailer-container
+        background-position: right
+    .btn-container
+        margin-top: 50px !important
+@media screen and (max-width: 620px)
+    .video-react .video-react-big-play-button
+        top: 10% !important
+        left: 10% !important
+    .game-trailer-container, .game-description, .technical-specifications
+        padding: 10px
+    .game-description-text, .technical-specifications-text p
+        font-size: 18px
+    .technical-specifications h4
+        font-size: 20px
+    .technical-specifications-text 
+            grid-template-columns: 50% 50% 
+            grid-template-rows: repeat(3, 1fr)
+@media screen and (max-width: 420px)
+    .btn a, .btn-ssom a, .ts-btn a
+        font-size: 14px
+        text-align: center
+    .game-description-text, .technical-specifications-text p
+        font-size: 14px
+    .technical-specifications-text 
+        grid-template-columns: 100% 
+        grid-template-rows: repeat(6, 1fr)

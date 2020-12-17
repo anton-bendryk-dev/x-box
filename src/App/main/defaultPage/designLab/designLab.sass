@@ -29,3 +29,30 @@
 .design-lab-btn2
     width: 278px
     background: $green
+@media screen and (max-width: 1024px)
+    .col-w50
+        padding-left: 30px 
+    .designLab-container h2 
+        width: 100%
+@media screen and (max-width: 768px)
+    .inline-dl-container
+        display: flex
+        flex-direction: column
+    .col-w50
+        width: 100%
+        padding-left: 0px 
+    .inline-dl-container p
+        text-align: center
+    .design-lab-btn-container
+        justify-content: center
+    .design-lab-btn-container a 
+        margin: 0px
+@media screen and (max-width: 505px)
+    .design-lab-btn-container
+        flex-direction: column
+    .design-lab-btn-container div 
+        margin-top: 10px
+    .inline-dl-container p
+        font-size: 18px
+    .col-w50 h2 
+        font-size: 24px

@@ -5,16 +5,12 @@ header
 .logo-container
     width: 35%
     @include flex(center, center)
-.menu-container
-    width: 30%
-    
-    @include flex(center, around)
 .search-container
     width: 15%
-    @include flex(center, around)
+    @include flex(center, space-around)
 .user-container
     width: 20%
-    @include flex(center, around)
+    @include flex(center, space-around)
 .logo
     @include link(white)
     width: 96px
@@ -66,10 +62,10 @@ header a:hover
     flex-direction: column
 .menu-button:hover .drop-menu 
     visibility: visible
-    -webkit-transition: all 1000ms
-    -moz-transition: all 1000ms
-    -o-transition: all 1000ms
-    transition: all 1000ms
+    -webkit-transition: all 2000ms
+    -moz-transition: all 2000ms
+    -o-transition: all 2000ms
+    transition: all 2000ms
 .drop-menu a 
     padding: 10px
 .drop-menu a:hover
@@ -78,3 +74,60 @@ header a:hover
     -moz-transition: all 500ms
     -o-transition: all 500ms
     transition: all 500ms
+.menu-container
+    width: 30%
+    @include flex(center, space-around)
+.menu-dropdown
+    @include flex(center, space-around)
+    height: 60px
+@media screen and (max-width: 1014px)
+    .menu-container
+        @include bg 
+        background-image: url(./images/menu-icon.png)
+        background-size: contain
+        height: 60px
+        justify-content: inherit
+    .menu-button
+        display: none
+        position: relative
+        top: 50px
+        width: 100px
+        height: 40px
+        background: $grey
+    .menu-container:hover .menu-button
+        @include flex(center, inherit)
+        flex-direction: column
+        -webkit-transition: all 1000ms
+        -moz-transition: all 1000ms
+        -o-transition: all 1000ms
+        transition: all 1000ms
+        z-index: 1
+    .navigation
+        width: 100px
+        margin-top: 10px
+    .drop-menu
+        position: relative
+        width: 200px
+        top: 14px
+        left: 50px
+    .logo-container, .search-container, .user-container, .menu-container
+        width: 25%
+    @media screen and (max-width: 534px)
+        header
+            display: grid
+            grid-template-columns: 50% 50% 
+            grid-template-rows: repeat(2, 1fr)
+        .logo-container, .search-container, .user-container, .menu-container
+            width: 100%
+        .menu-container
+            order: 3
+            background-position: inherit
+        .search-container
+            order: 2
+            padding: 10px
+        .user-container
+            order: 4
+            justify-content: flex-end
+        .logo-container
+            order: 1
+            justify-content: end

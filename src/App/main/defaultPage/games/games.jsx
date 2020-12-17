@@ -69,14 +69,14 @@ const Games = () => {
                 <InfiniteCarousel
                     breakpoints={[
                     {
-                        breakpoint: 500,
+                        breakpoint: 764,
                         settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         },
                     },
                     {
-                        breakpoint: 768,
+                        breakpoint: 1200,
                         settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
