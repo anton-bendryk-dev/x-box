@@ -15,6 +15,7 @@
     background: #FAFAFA
     border-radius: 4px
     @include flex(center, center)
+    text-align: center
 .card-description
     width: 100%
     padding: 22px
@@ -35,5 +36,9 @@
     border-radius: 4px
     @include link(white)
     @include text-settings(16px, white)
+.card-btn a:hover 
+    background: #3DD85C
+    transition-duration: 300ms
 .card-container:hover
     padding: 0px
+    transition-duration: 500ms
